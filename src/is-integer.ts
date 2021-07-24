@@ -8,3 +8,5 @@
 const isInteger = function (num: number): boolean {
    return num % 1 === 0;
 }
+
+export default isInteger;

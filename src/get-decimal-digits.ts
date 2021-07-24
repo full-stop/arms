@@ -8,3 +8,5 @@ const getDecimalDigits = function (num: number): number {
     const strNumber = String(num);
     return strNumber.split('.')[1]?.length || 0;
 }
+
+export default getDecimalDigits;
