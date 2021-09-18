@@ -6,6 +6,9 @@
  */
 
 const isInteger = function (num: number): boolean {
+   if (typeof Number.isInteger === 'function') {
+      return Number.isInteger(num);
+   }
    return num % 1 === 0;
 }
 
