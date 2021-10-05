@@ -6,7 +6,7 @@
  * @description 判断输入结果是否为有效数值。
  */
 
-const isNumber = function (num: any) {
+const isNumber = function (num: any): boolean {
     const float = parseFloat(num);
     if (isNaN(float) || isNaN(num)) {
         return false;
